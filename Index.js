@@ -38,4 +38,5 @@ export async function handler(event) {
         },
         body: JSON.stringify(fact)
     }
+    return response;
 }
