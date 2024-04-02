@@ -27,7 +27,7 @@ export async function handler(event) {
         "Strong social connections improve mental health and increase longevity",
 
     ];
-
+// Siran Bro did a great job
     const randomIndex = Math.floor(Math.random() * facts.length);
     const fact = facts[randomIndex];
 
